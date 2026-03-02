@@ -1,16 +1,16 @@
 package model;
 
-import java.util.ArrayList; // IMPORTANTE: Sin esto sale error en ArrayList
+import java.util.ArrayList; // sin importar sale error en la arrailis
 
 public class Venta {
-    // ATRIBUTOS PRIVADOS (Encapsulamiento)
+    // atributos privados
     private int idVenta;
     private Cliente cliente;
     private Empleado empleado;
     private ArrayList<Carrito> listaItems; // Colección en memoria
     private double totalVenta;
 
-    // CONSTRUCTOR COMPLETO
+    // constructores completos
     public Venta(int idVenta, Cliente cliente, Empleado empleado) {
         this.idVenta = idVenta;
         this.cliente = cliente;
@@ -19,7 +19,7 @@ public class Venta {
         this.totalVenta = 0.0;
     }
 
-    // MÉTODO PARA LA EFICIENCIA: Agrega productos y suma el total al instante
+    //  Agregamos  productos y suma el total 
     public void agregarAlCarrito(Producto p, int cant) {
         Carrito nuevoItem = new Carrito(p, cant);
         this.listaItems.add(nuevoItem);
@@ -28,7 +28,7 @@ public class Venta {
         this.totalVenta += nuevoItem.obtenerSubtotal();
     }
 
-    // GETTERS (Para que se quiten las líneas naranjas y puedas usar los datos)
+    // geter para quitar lineas naranjas y que podamos ver los datos
     public int getIdVenta() {
         return idVenta;
     }
