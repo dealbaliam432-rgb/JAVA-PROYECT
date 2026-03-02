@@ -13,7 +13,7 @@ public class Cliente {
         this.telefono = telefono;
     }
 
-    // Getters y Setters simples
+    // Getters y Setters 
     public String getCedula() { return cedula; }
     public void setCedula(String cedula) { this.cedula = cedula; }
 
