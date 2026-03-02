@@ -1,13 +1,13 @@
 package model;
 
 public class Producto {
-    // 1. Atributos Privados (Encapsulamiento)
+    // aqui encontramos los atributos privados o encapsulamientos
     private String codigo;
     private String nombre;
     private double precio;
     private int stock;
 
-    // 2. Constructor Vacío
+    //  Constructor Vacío
     public Producto() {}
 
     // 3. Constructor Completo
@@ -18,7 +18,7 @@ public class Producto {
         setStock(stock);
     }
 
-    // 4. Setters con validaciones (Lo que pidió el profe)
+    // 4. Seter con algunas  validaciones 
     public void setPrecio(double precio) {
         if (precio >= 0) {
             this.precio = precio;
@@ -35,7 +35,7 @@ public class Producto {
         }
     }
 
-    // Getters
+    // Geter
     public String getNombre() { return nombre; }
     public String getCodigo() { return codigo; }
     public double getPrecio() { return precio; }
