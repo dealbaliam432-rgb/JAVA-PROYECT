@@ -12,7 +12,7 @@ public class Empleado {
     }
 
     public void setEdad(int edad) {
-        if (edad >= 18) { // Validación de mayoría de edad
+        if (edad >= 18) { // Validan cuando es mayor de edad
             this.edad = edad;
         } else if (edad < 0) {
             System.out.println("Error: No se puede registrar edad negativa.");
