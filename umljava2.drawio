@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0" pages="2">
+  <diagram name="Página-1" id="WwMBS7T8PFFv8VUzy9ls">
+    <mxGraphModel dx="1017" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vDUwpMr7bvmIeesvooGg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CLASE APP&amp;nbsp;&lt;div&gt;esta clase es el punto de entrada&amp;nbsp; de la aplicacion y&amp;nbsp;&lt;/div&gt;&lt;div&gt;contiene el metodo prinncipal&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;METODOS&lt;/div&gt;&lt;div&gt;+main args string boids&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CLASE CLIENTE&lt;div&gt;parte del paquete model representa un cliente del sistema&lt;/div&gt;&lt;div&gt;ATRIBITOS PRIVADOS&lt;/div&gt;&lt;div&gt;ced string&lt;/div&gt;&lt;div&gt;nom string&lt;/div&gt;&lt;div&gt;METODOS PUBLICOS&lt;/div&gt;&lt;div&gt;+cliente cedula string nom string&lt;/div&gt;&lt;div&gt;CONSTRUCTOR COMPLETO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="355" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-5" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1.011;entryY=0.949;entryDx=0;entryDy=0;entryPerimeter=0;" target="vDUwpMr7bvmIeesvooGg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CLASE EMPLEADO&lt;div&gt;representa a un empleado en el sistema&lt;/div&gt;&lt;div&gt;ATRI PRIVADOS&lt;/div&gt;&lt;div&gt;nom string&lt;/div&gt;&lt;div&gt;edad in&lt;/div&gt;&lt;div&gt;METODOS PUBLICOS&lt;/div&gt;&lt;div&gt;+ empleado nombre string edad int constructor completo que usa SETEDAD&amp;nbsp;&lt;/div&gt;&lt;div&gt;+setedad edad int void seter con validacion para que la edad no sea negativa&lt;/div&gt;&lt;div&gt;+getnombre string geter para obtener el nombre&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="220" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CLASE PRODUCTO&lt;div&gt;define un producto individual con su precio y stook (INVENTARIO)&lt;/div&gt;&lt;div&gt;ATRIBUTOS PRIV&lt;/div&gt;&lt;div&gt;codigo string&lt;/div&gt;&lt;div&gt;nombre string&lt;/div&gt;&lt;div&gt;precio doble&amp;nbsp;&lt;/div&gt;&lt;div&gt;stook int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="690" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="METODOS PUBLICOS&lt;div&gt;+ producto constructor vacio para inicializar sin datos&amp;nbsp;&lt;/div&gt;&lt;div&gt;+producto codigo strng nombre string&lt;/div&gt;&lt;div&gt;precio double stoock int constructor completo que usa seteers&lt;/div&gt;&lt;div&gt;+set precio precio double void&amp;nbsp; setter con validaccion para que el precio no sea negativo&amp;nbsp;&lt;/div&gt;&lt;div&gt;+set stoock stoock int void seter con validacion para que el stoojk no sea&amp;nbsp;&lt;/div&gt;&lt;div&gt;negativo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="685" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CLASE CARRITO&amp;nbsp;&lt;div&gt;representa un item dentro del carrito de compras vinculando un pro con una cant&lt;/div&gt;&lt;div&gt;atributos privados&lt;/div&gt;&lt;div&gt;producto producto&lt;/div&gt;&lt;div&gt;cantidad int&lt;/div&gt;&lt;div&gt;metodos publicos&lt;/div&gt;&lt;div&gt;+carrito cons vacio&lt;/div&gt;&lt;div&gt;+carrito producto producto cant int constr completo&lt;/div&gt;&lt;div&gt;+obtener subtotal double&lt;/div&gt;&lt;div&gt;metodo de eficiencia que calcula el precio unitario por cant.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="390" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CLASE VENTA&amp;nbsp;&lt;div&gt;hace una transacion de venta completa incluyendo el cliente empleado y los productos adquiridos&lt;/div&gt;&lt;div&gt;atributos priv&lt;/div&gt;&lt;div&gt;idventa int&lt;/div&gt;&lt;div&gt;cliente cliente&lt;/div&gt;&lt;div&gt;emple emple&lt;/div&gt;&lt;div&gt;listaitem array list&lt;/div&gt;&lt;div&gt;coleccion para almacenamientos temp de los item de ventas&amp;nbsp;&lt;/div&gt;&lt;div&gt;totalventa double&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;metodos publicos&lt;/div&gt;&lt;div&gt;+venta idventa int constructor completo que inicializa el arraylist&lt;/div&gt;&lt;div&gt;getcliente cliente geter para obtener cliente asociado&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="265" width="265" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-17" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CLASE INVENTARIO&lt;div&gt;gestiona la coleccion completa de productos disponibles&lt;/div&gt;&lt;div&gt;atributos privados&lt;/div&gt;&lt;div&gt;listaproductos arraylist colecion para el sistema de almacenamiento temp de productos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;metodos publicos&lt;/div&gt;&lt;div&gt;+inventario const completo que inicializa el array list&lt;/div&gt;&lt;div&gt;+agregarproducto&amp;nbsp;&lt;/div&gt;&lt;div&gt;+buscar por codigo codigo string metodo funcional para buscar un producto especifico en el codigo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="220" x="665" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-18" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-13" style="endArrow=none;html=1;rounded=0;entryX=0.014;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.003;exitY=0.722;exitDx=0;exitDy=0;exitPerimeter=0;" target="vDUwpMr7bvmIeesvooGg-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <mxPoint x="352.5" y="317.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-19" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-13" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" target="vDUwpMr7bvmIeesvooGg-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="272.5" y="540" as="sourcePoint" />
+            <mxPoint x="350" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-20" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-13" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="vDUwpMr7bvmIeesvooGg-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="150" as="sourcePoint" />
+            <mxPoint x="190" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-21" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-12" style="endArrow=none;html=1;rounded=0;exitX=1.006;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.02;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" target="vDUwpMr7bvmIeesvooGg-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="580" as="sourcePoint" />
+            <mxPoint x="620" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-22" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-17" style="endArrow=none;html=1;rounded=0;exitX=0.461;exitY=-0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vDUwpMr7bvmIeesvooGg-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="650" as="sourcePoint" />
+            <mxPoint x="766" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-23" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="1130" />
+              <mxPoint x="145" y="1140" />
+              <mxPoint x="385" y="1030" />
+              <mxPoint x="435" y="1120" />
+              <mxPoint x="395" y="1080" />
+              <mxPoint x="665" y="1090" />
+            </Array>
+            <mxPoint x="295" y="1060" as="sourcePoint" />
+            <mxPoint x="335" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-24" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.579;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="531.04" y="739.36" />
+              <mxPoint x="500" y="689" />
+              <mxPoint x="710" y="680" />
+            </Array>
+            <mxPoint x="140.00000000000003" y="599.9999999999999" as="sourcePoint" />
+            <mxPoint x="776.04" y="619.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-25" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1080" />
+              <mxPoint x="600" y="1120" />
+              <mxPoint x="620" y="1080" />
+              <mxPoint x="640" y="1100" />
+              <mxPoint x="690" y="1030" />
+              <mxPoint x="650" y="1070" />
+              <mxPoint x="610" y="1020" />
+            </Array>
+            <mxPoint x="630" y="1110" as="sourcePoint" />
+            <mxPoint x="630" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDUwpMr7bvmIeesvooGg-26" edge="1" parent="1" source="vDUwpMr7bvmIeesvooGg-1" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.279;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.66;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="vDUwpMr7bvmIeesvooGg-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="410" />
+              <mxPoint x="100" y="360" />
+            </Array>
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BsIiPZH344UWUZkIC7tm" name="Página-2">
+    <mxGraphModel dx="1017" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
