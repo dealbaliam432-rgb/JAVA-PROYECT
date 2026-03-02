@@ -13,7 +13,8 @@ public class Cliente {
         this.telefono = telefono;
     }
 
-    // Getters y Setters 
+    // Getters obtiene leer o consultar y Setters establece modi o asignar
+    // aqui los intermediarios para darle aceso a los metodos privados como en este caso ced nombre tel
     public String getCedula() { return cedula; }
     public void setCedula(String cedula) { this.cedula = cedula; }
 
