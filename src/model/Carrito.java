@@ -11,12 +11,12 @@ public class Carrito {
         this.cantidad = cantidad;
     }
 
-    // MÉTODO DE EFICIENCIA: Calcula el subtotal de este item automáticamente
+    //  sirve para Calcular el subtotal de este item automáticamente
     public double obtenerSubtotal() {
         return producto.getPrecio() * cantidad;
     }
 
-    // Getters y Setters
+    //  Aqui hay Getters y Setters
     public Producto getProducto() { return producto; }
     public void setProducto(Producto producto) { this.producto = producto; }
     public int getCantidad() { return cantidad; }
