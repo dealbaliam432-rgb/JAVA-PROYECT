@@ -6,10 +6,10 @@ public class App {
         Scanner teclado = new Scanner(System.in);
         Inventario miTienda = new Inventario();
 
-        // 1. aqui agregamos los productos de la tienda cin su codigo precio y cantidad  que es lo que muestra el sistema
-        miTienda.agregarProducto(new Producto("P01", "Arroz 1kg", 3500.0, 10));
-        miTienda.agregarProducto(new Producto("P02", "Leche 1L",4000.0, 10));
-        miTienda.agregarProducto(new Producto("P03", "aceite 1L",6500.0, 10));
+        // 1. aqui agregamos los productos de la tienda con su codigo precio y cantidad  que es lo que muestra el sistema
+        miTienda.agregarProducto(new Producto("P01", "Arroz 1kg", 3500));
+        miTienda.agregarProducto(new Producto("P02", "Leche 1L",4000));
+        miTienda.agregarProducto(new Producto("P03", "aceite 1L",6500));
 
         System.out.println("======= SUPERMERCADO CESDE =======");
 
@@ -41,7 +41,7 @@ public class App {
             }
         }
 
-        // 6. y este es el resultado final que mostramos enn la consola y tambien hicimos un ciclo for para 
+        // 6. y este es el resultado final que mostramos en la consola y tambien hicimos un ciclo for para 
         // recorrer toda la lista de productos que el cliente agrego al carro para mostrarlos en la consola 
         //
         System.out.println("\n-------------------------------------------");
